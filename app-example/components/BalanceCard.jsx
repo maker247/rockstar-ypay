@@ -21,35 +21,13 @@ export default function BalanceCard() {
 }
 
 const styles = StyleSheet.create({
-    banner: {
-        padding: 30,
-        borderBottomLeftRadius: 25,
-        borderBottomRightRadius: 25,
-        backgroundColor: "#6d25e5"
-    },
-    balance: {
-        marginTop: 12,
-        flexDirection: "row",
-        gap: 10,
-        alignItems: "center"
-    },
-    balanceGrowth: {
-        alignItems: "flex-end",
-        paddingTop: 10
-    },
+    banner: {},
+    balance: {},
+    balanceGrowth: {},
     text: {
-        label: {
-            fontWeight: "bold",
-            color: "#aaa"
-        },
-        amount: {
-            fontWeight: "bold",
-            fontSize: 40,
-            color: "#fff"
-        },
-        growth: {
-            color: "6f6"
-        }
+        label: {},
+        amount: {},
+        growth: {}
     },
 
 })
